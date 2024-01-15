@@ -109,7 +109,7 @@ li:hover {
 
 @media (max-width: 768px) {
     .titulo-mobile {
-        width: 15rem !important;
+        width: 13rem !important;
     }
 
     nav {

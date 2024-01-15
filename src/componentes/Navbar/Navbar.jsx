@@ -6,7 +6,7 @@ import mail from "../../imagenes/iconos/mail.png";
 import ubicacion from "../../imagenes/iconos/ubicacion.png";
 import telefono from "../../imagenes/iconos/telefono.png";
 import logo from "../../imagenes/logo/LOGO BARCELO.png";
-import './NavBar.css';
+import './Navbar.css';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

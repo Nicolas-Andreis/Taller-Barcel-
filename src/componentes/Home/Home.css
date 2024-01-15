@@ -17,10 +17,14 @@
     justify-content: center;
     margin-bottom: 2rem;
 }
-.container-title{
-    background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.container-title {
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     position: absolute;
     width: 40%;
@@ -35,10 +39,14 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     align-items: center;
     font-size: larger;
 }
-.container-pagos{
-    background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.container-pagos {
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     color: white;
     width: 30%;
@@ -50,7 +58,8 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     justify-content: center;
     align-items: center;
 }
-.flotante-whatsapp{
+
+.flotante-whatsapp {
     position: fixed;
     right: 1rem;
     bottom: 2rem;
@@ -59,30 +68,36 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     transition: 2s;
     cursor: pointer;
 }
-.flotante-whatsapp img{
+
+.flotante-whatsapp img {
     width: 4rem;
     height: 4rem;
 }
+
 .flotante-whatsapp:hover {
     transform: rotate(360deg);
-    transition: transform 1s ease; /* Agrega una transición para que sea suave */
-  }
-  .scroll-fade {
+    transition: transform 1s ease;
+    /* Agrega una transición para que sea suave */
+}
+
+.scroll-fade {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
-  }
-  
-  .scroll-fade.fade-in {
+}
+
+.scroll-fade.fade-in {
     opacity: 1;
     transform: translateY(0);
-  }
-  @media (max-width: 768px) {
-    .flotante-whatsapp{
+}
+
+@media (max-width: 768px) {
+    .flotante-whatsapp {
         right: 1rem;
         bottom: 1rem;
     }
-    .container-title{
+
+    .container-title {
         width: 70%;
     }
-  }
+}

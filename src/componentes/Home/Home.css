@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fondoImagen {
+    background-image: url("../../imagenes/fondo/fondo.jpg");
+    /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    /* Establece la altura según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.container-title{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top: 30vh;
+    height: 6rem;
+    border-radius: 2rem 0 0 2rem;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.container-pagos{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    width: 30%;
+    height: 3rem;
+    border-radius: 3rem;
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flotante-whatsapp{
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    width: 4rem;
+    height: 4rem;
+    transition: 2s;
+    cursor: pointer;
+}
+.flotante-whatsapp img{
+    width: 4rem;
+    height: 4rem;
+}
+.flotante-whatsapp:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease; /* Agrega una transición para que sea suave */
+  }
+  .scroll-fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .scroll-fade.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (max-width: 768px) {
+    .flotante-whatsapp{
+        right: 1rem;
+        bottom: 1rem;
+    }
+    .container-title{
+        width: 70%;
+    }
+  }

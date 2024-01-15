@@ -1,0 +1,27 @@
+.container-diplomas img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    cursor: pointer; /* Hace que el cursor cambie al pasar sobre la imagen */
+    transition: transform 0.3s; /* Agrega una transición suave al cambio de escala */
+  }
+  
+  
+.container-diplomas{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.container-diplomas img.imagen-clicada {
+    transform: scale(2); /* Escala la imagen al 150% cuando está clicada */
+  }
+
+  @media (max-width: 768px) {
+    .container-diplomas{
+        display: none;
+    }
+    .ocultar{
+        display: none;
+    }
+  }

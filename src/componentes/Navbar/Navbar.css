@@ -1,0 +1,196 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 10vh;
+    align-items: center;
+    z-index: 1;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.container-logo img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    margin: 0 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    margin: 0 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+li:hover {
+    border-radius: .5rem;
+    padding: .3rem .3rem;
+    margin: 0 .7rem;
+    border: 1px solid white;
+    color: white;
+}
+
+.container-list {
+    width: 40%;
+}
+
+.active {
+    border-bottom: 0.2rem solid #ffffff;
+}
+
+.nav_toggle {
+    display: none;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.second-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-top: 1px solid white;
+    height: 2rem;
+    align-items: center;
+}
+
+.flex-second-navbar {
+    display: flex;
+    color: white;
+}
+
+.container-flex-second-navbar {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.container-redes {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.img-secondbar {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .titulo-mobile {
+        width: 15rem !important;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .second-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-flex-second-navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-redes {
+        display: none;
+    }
+
+    .nav_items {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #373B44;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4286f4, #373B44);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: -webkit-fill-available;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+        z-index: 1;
+    }
+
+    .nav_items.open {
+        transform: translateX(0) !important
+    }
+
+    .nav_toggle {
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .nav_toggle span {
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .nav_toggle.open>span {
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+
+    .nav_toggle.open>span:nth-child(2) {
+        display: none;
+    }
+
+    .nav_toggle.open>span:nth-child(3) {
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+
+    .container-title {
+        width: 70%;
+        text-align: center;
+    }
+
+    .container-pagos {
+        width: 80% !important;
+    }
+}

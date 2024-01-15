@@ -1,0 +1,18 @@
+.container-marcas img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin: 1rem 5rem;
+}
+.container-marcas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+@media (max-width: 768px) {
+    .container-marcas img{
+        margin: .2rem;
+    }
+}

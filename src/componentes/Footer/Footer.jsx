@@ -22,7 +22,10 @@ const Footer = () => {
                 </div>
                 <div className='flex'>
                     <img src={telefono} alt="" />
-                    <p>+54 2914717914</p>
+                    <p>+54 2914717914
+                        <br />+54 2916463423
+                    </p>
+
                 </div>
                 <div className='flex'>
                     <img src={certificado} alt="" />

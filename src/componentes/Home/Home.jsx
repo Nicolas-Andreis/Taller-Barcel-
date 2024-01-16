@@ -47,7 +47,7 @@ const Home = () => {
     <div>
       <div className='fondoImagen'>
         <div className='container-title'>
-          <h1>Mecánica Barceló</h1>
+          <h2>M e c á n i c a BARCELÓ</h2>
         </div>
         <div className='container-pagos'>
           <h3>Todos los medios de pago</h3>

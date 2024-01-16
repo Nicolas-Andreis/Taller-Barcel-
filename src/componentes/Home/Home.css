@@ -98,6 +98,13 @@
     }
 
     .container-title {
-        width: 70%;
+        width: 80%;
+        padding: 2rem;
+        position: relative;
+        top: -11rem;
+        border-radius: 2rem;
+        background-color: rgba(255, 255, 255, 0.333) !important;
+        background: none;
+        border: white 2px solid;
     }
 }

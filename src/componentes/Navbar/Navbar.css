@@ -120,6 +120,7 @@ li:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 3.5rem;
     }
 
     .container-flex-second-navbar {
@@ -192,5 +193,10 @@ li:hover {
 
     .container-pagos {
         width: 80% !important;
+    }
+    .flex-second-navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

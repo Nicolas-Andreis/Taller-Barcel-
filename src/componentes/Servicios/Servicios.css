@@ -16,8 +16,10 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: .5rem;
+    padding: 1rem;
     margin: 0rem 3rem 3rem 3rem;
+    
+    border: 3px solid #5B7FFF;
     
 }
 .card-servicios img{
@@ -30,8 +32,11 @@
     width: 5rem;
     border: 1px solid #5B7FFF;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    color: #5B7FFF;
+    color: white;
     transition: 1s;
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44);
 }
 .card-servicios button:hover{
     background: #373B44;  /* fallback for old browsers */
@@ -57,10 +62,13 @@ color: white;
   }
   @media (max-width: 768px) {
     .card-servicios{
-        margin: .1rem;
-        padding: 0;
+        margin: 0rem 0rem;
+        padding: 1rem;
         width: 10rem;
-        height: 9rem;
+        height: 11rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     .container-servicios{
         padding: 1rem;
@@ -68,5 +76,6 @@ color: white;
     }
     .subtitle{
         width: 80%;
+        margin-top: 3rem;
     }
   }

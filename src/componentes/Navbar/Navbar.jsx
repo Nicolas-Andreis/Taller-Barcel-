@@ -64,7 +64,8 @@ const Navbar = () => {
                     </div>
                     <div className='flex-second-navbar'>
                         <img src={telefono} alt="teléfono" className='img-secondbar' />
-                        <p>+54 2914717914</p>
+                        <p>+54 2914717914 <br />
+                        +54 2916463423</p>
                     </div>
                 </div>
             </div>

@@ -22,10 +22,7 @@ const Nosotros = () => {
                         máximo cuidado y atención. Destacamos por nuestra
                         eficiencia, honestidad y compromiso con la satisfacción
                         del cliente, ofreciendo soluciones integrales a las necesidades
-                        de tu automóvil. En Gerardo Barceló, nos distinguimos
-                        por la pasión y el compromiso con nuestro trabajo, brindando
-                        un servicio confiable y de confianza que supera las expectativas
-                        de quienes</p>
+                        de tu automóvil.</p>
                 </div>
                 <div>
                     <img src={nosotros} alt="" className='img-nosotros'/>

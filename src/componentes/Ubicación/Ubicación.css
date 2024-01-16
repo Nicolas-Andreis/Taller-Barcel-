@@ -4,12 +4,13 @@
     margin: 2rem auto;
     display: flex;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 1rem;;
 
 }
 .card-ubicacion iframe{
     width: 70%;
     height: 20rem;
+    border-radius: 1rem;
 }
 .parrafo{
     display: flex;

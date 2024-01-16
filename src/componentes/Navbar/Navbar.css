@@ -81,19 +81,21 @@ li:hover {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     border-top: 1px solid white;
-    height: 2rem;
+    height: 3rem;
     align-items: center;
 }
 
 .flex-second-navbar {
     display: flex;
     color: white;
+    align-items: center;
 }
 
 .container-flex-second-navbar {
     display: flex;
     width: 40%;
     justify-content: space-around;
+    align-items: center;
 }
 
 .container-redes {
@@ -106,6 +108,7 @@ li:hover {
     width: 1.5rem;
     height: 1.5rem;
 }
+
 
 @media (max-width: 768px) {
     .titulo-mobile {

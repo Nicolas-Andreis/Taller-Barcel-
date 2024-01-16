@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className='container-logo'>
                     <Link to="/" className='link'>
                         <img src={logo} alt="logo" />
-                        <h2 className='poppins titulo-mobile'>Gerardo Barceló</h2>
+                        <h2 className='poppins titulo-mobile'>BARCELÓ GERARDO </h2>
                     </Link>
                 </div>
 

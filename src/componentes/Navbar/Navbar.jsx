@@ -38,10 +38,10 @@ const Navbar = () => {
 
                 <div className='container-list'>
                     <ul className={`poppins nav_items ${isOpen && "open"}`}>
-                        <li><NavLink to="/" className='link' onClick={closeMenu}>inicio</NavLink></li>
-                        <li><NavLink to="/servicios" className='link' onClick={closeMenu}>servicios</NavLink></li>
-                        <li><NavLink to="/nosotros" className='link' onClick={closeMenu}>nosotros</NavLink></li>
-                        <li><NavLink to="/ubicación" className='link' onClick={closeMenu}>ubicación</NavLink></li>
+                        <li><NavLink to="/" className='link link-navbar' onClick={closeMenu}>Inicio</NavLink></li>
+                        <li><NavLink to="/servicios" className='link link-navbar' onClick={closeMenu}>Servicios</NavLink></li>
+                        <li><NavLink to="/nosotros" className='link link-navbar' onClick={closeMenu}>Nosotros</NavLink></li>
+                        <li><NavLink to="/ubicación" className='link link-navbar' onClick={closeMenu}>Ubicación</NavLink></li>
                     </ul>
                 </div>
 

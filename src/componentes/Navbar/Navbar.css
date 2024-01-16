@@ -112,11 +112,12 @@ li:hover {
 
 @media (max-width: 768px) {
     .titulo-mobile {
-        width: 13rem !important;
+        width: 14rem !important;
     }
 
     nav {
         width: 100%;
+        
     }
 
     .second-navbar {
@@ -202,4 +203,15 @@ li:hover {
         justify-content: center;
         align-items: center;
     }
+    .link-navbar{
+        border: 1px solid white;
+        width: 15rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        height: 8rem;
+        align-items: center;
+        font-size: x-large;
+    }
+   
 }
